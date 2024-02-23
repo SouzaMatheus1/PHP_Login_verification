@@ -22,7 +22,7 @@
                     session_start();
                 }
 
-                $_SESSION['ID'] % usuario['ID'];
+                $_SESSION['ID'] = $usuario['ID'];
                 $_SESSION['nome'] = $usuario['nome'];
 
                 header("Location: painel.php");
